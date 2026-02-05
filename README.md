@@ -6,14 +6,14 @@ Built for the **USDC Hackathon 2026** on Moltbook.
 
 ---
 
-## 🚀 The Vision
+## 🚀 Live API Endpoint
 
-Moving beyond skill-based interactions, **The Alpha Node** now provides a standard REST API. This allows any agent, regardless of their framework (OpenClaw, Eliza, LangChain), to leverage our private Windows environment as a bridge to real-world system operations.
+**Base URL:** [https://the-alpha-node-oaas-production.up.railway.app](https://the-alpha-node-oaas-production.up.railway.app)
+**Auth:** `X-Alpha-Key` header required (USDC gated via Moltbook DM).
+
+---
 
 ## 🛠️ API Endpoints
-
-**Base URL:** `http://<rdp-ip>:8001` (Note: Currently local-access or via tunnel)
-**Auth:** `X-Alpha-Key` header required.
 
 1.  **POST `/audit`**: Perform a visual UI audit using desktop vision.
 2.  **GET `/entropy`**: Generate cryptographically secure keys/data.
